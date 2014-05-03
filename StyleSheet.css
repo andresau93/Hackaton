@@ -1,0 +1,79 @@
+﻿body
+{
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(109,179,242,1)), color-stop(50%,rgba(84,163,238,1)), color-stop(64%,rgba(54,144,240,1)), color-stop(100%,rgba(30,105,222,1)));
+}
+.Header
+{
+    height: 60px;
+    background-color:transparent;
+}
+.Buttons
+{
+    height: 100px;
+}
+.Bottom
+{
+    height: 200px;
+    color: #00FF00;
+     background-color:transparent;
+}
+.BTWhite {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f9f9f9), color-stop(1, #e9e9e9) );
+	background:-moz-linear-gradient( center top, #f9f9f9 5%, #e9e9e9 100% );
+	background-color:#f9f9f9;
+	color:Black;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	font-style:normal;
+	height:33%;
+	width:100%;
+}
+.BTWhite:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #e9e9e9), color-stop(1, #f9f9f9) );
+	background:-moz-linear-gradient( center top, #e9e9e9 5%, #f9f9f9 100% );
+	background-color:#e9e9e9;
+	color:Gray;
+}.BTWhite:active {
+	position:relative;
+	top:1px;
+}
+/* This button was generated using CSSButtonGenerator.com */
+
+.BTMarked
+{
+    background-color:gray;
+    font-size:13px;
+    font-weight:bold;
+    height:33%;
+    width:100%;
+    border-color: gray;
+}
+
+.BTMarked:hover
+{
+    background-color:#696969;
+}
+
+.BTMarked:active
+{
+    background-color: #A9A9A9;
+}
+.BTMoney
+{
+    height:33%;
+    width:100%;
+    background-color:#7CFC00;
+    font-size:13px;
+    font-weight:bold;
+    border-color: green;
+}
+.BTMoney:hover
+{
+    color:Gray;
+    background-color:#66CD00;
+}
+.BTMoney:active
+{
+    background-color:#7CFC00;
+}
